@@ -1,0 +1,26 @@
+{
+  "name": "tour-operator-starter-theme",
+  "version": "1.0.0",
+  "description": "This is a package which will generate a parent theme based on the Twenty Twenty Five theme from WordPress.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lightspeedwp/tour-operator-starter-theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lightspeedwp/tour-operator-starter-theme/issues"
+  },
+  "homepage": "https://github.com/lightspeedwp/tour-operator-starter-theme#readme",
+  "dependencies": {
+    "fs-extra": "^11.3.0",
+    "globby": "^14.1.0",
+    "inquirer": "^12.7.0",
+    "simple-git": "^3.28.0"
+  }
+}
