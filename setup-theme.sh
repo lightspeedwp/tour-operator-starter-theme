@@ -61,7 +61,4 @@ fi
 #    echo "Keeping .git and .gitignore."
 #fi
 
-echo "Deleting .git and .gitignore..."
-rm -rf .git .gitignore
-
 echo "✅ Theme setup complete."
