@@ -4,14 +4,6 @@ This tool automates the setup of a custom WordPress theme based on the **Twenty 
 
 ---
 
-## ✅ Requirements
-
-Make sure you have the following installed:
-
-- [Node.js and npm](https://nodejs.org/) (v14 or higher recommended)
-
----
-
 ## 📦 Installation & Setup
 
 ### 1. Clone or Download This Repository
@@ -23,20 +15,22 @@ git clone <your-repo-url>
 cd <your-project-folder>
 ```
 
-### 2. Install Dependencies
+### 2: Make the Script Executable
 
-Install the required Node.js packages:
+Once the you are inside the repo folder run the following command in your terminal to make it executable:
 
 ```bash
-npm install
+chmod +x setup-theme.sh
 ```
 
-### 3. Run the Setup Script
+---
 
-Start the theme setup process:
+### 3: Run the Script
+
+Now you can run the script by executing:
 
 ```bash
-node setup-theme.js
+./setup-theme.sh
 ```
 
 ---
@@ -80,10 +74,8 @@ You will be prompted to:
 
 ## ❓ Troubleshooting
 
-- **Missing Dependencies?** Run `npm install` again.
 - **Permission Errors?** Try running with elevated privileges (`sudo` on macOS/Linux).
 - **Internet Issues?** Ensure you're online so the GitHub repository can be cloned.
-- **Missing `style.css`?** Ensure the script is run before making any manual changes.
 
 ---
 
