@@ -51,4 +51,17 @@ else
     echo "⚠️ style.css not found!"
 fi
 
+# Step 7: Prompt to delete .git and .gitignore
+#read -p "Do you want to delete the .git folder and .gitignore file? (y/N): " CONFIRM_DELETE
+
+#if [[ "$CONFIRM_DELETE" =~ ^[Yy](es)?$ ]]; then
+#    echo "Deleting .git and .gitignore..."
+#    rm -rf .git .gitignore
+#else
+#    echo "Keeping .git and .gitignore."
+#fi
+
+echo "Deleting .git and .gitignore..."
+rm -rf .git .gitignore
+
 echo "✅ Theme setup complete."

@@ -11,8 +11,8 @@ This tool automates the setup of a custom WordPress theme based on the **Twenty 
 Clone the repository or download the project files to your local machine.
 
 ```bash
-git clone <your-repo-url>
-cd <your-project-folder>
+git clone https://github.com/lightspeedwp/tour-operator-starter-theme.git
+cd tour-operator-starter-theme
 ```
 
 ### 2: Make the Script Executable
@@ -66,7 +66,7 @@ You will be prompted to:
 
 - Your root folder will now contain the customized theme.
 - You can:
-  - Rename the folder to match your theme slug
+  - Copy the folder to your theme repository
   - Begin development
   - Zip and distribute/upload your theme
 
